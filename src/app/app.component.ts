@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { getGreeting } from 'statelify';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +9,5 @@ export class AppComponent implements OnInit {
   title = 'statelify-ang';
 
   ngOnInit() {
-    console.log(getGreeting());
   }
 }
